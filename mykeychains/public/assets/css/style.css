@@ -1,0 +1,592 @@
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Secular One', sans-serif;
+font-family: 'Jua', sans-serif; */
+
+@font-face{
+    src: url(../font/segoe-ui.ttf);
+    font-family: 'segoe-ui';
+}
+
+@font-face{
+    src: url(../font/Jua-Regular.ttf);
+    font-family: 'jua';
+
+}
+
+@font-face{
+    src: url(../font/Sego-ui-bold.ttf);
+    font-family: 'segoe-ui-bold';
+}
+
+body h1{
+    font-family: segoe-ui-bold;
+}
+
+
+body p{
+    font-weight: 550;
+}
+
+
+body a{
+    font-family: segoe-ui-bold;
+    transition: 0.3s;
+}
+
+
+
+.navbar-togglert{
+    color: rgba(0,0,0,.5);
+    border-color: rgba(100, 50, 50, 0);
+}
+
+.info {
+    background-color: #1BB6FD;
+    padding: 2rem;
+}
+
+.info_child{
+    padding: 1rem;
+}
+
+.info img{
+    height: 5rem;
+}
+
+.info_full_tit p{
+    font-family: segoe-ui-bold;
+    font-size: 1.1rem;
+}
+
+.info p{
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+
+
+.scroll{
+    margin-bottom: 2rem;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-21px); }
+    100% { transform: translateY(0); }
+}
+
+.scroll img{
+    height: 5rem;
+}
+
+.info h5{
+    margin-top: 1rem;
+}
+
+.review{
+    background-color: #D9D9D9;
+    padding: 2rem;
+}
+
+.review_name p{
+    color: #1BB6FD;
+    font-family: segoe-ui-bold;
+}
+
+.review_child{
+    padding: 1rem;
+}
+
+
+
+.order p{
+font-size: 1.8rem;
+font-family: segoe-ui-bold;
+}
+
+.orderbtn{
+    width: 200px;
+}
+
+/* #00FF80; */
+.order button{
+    background-color: #f7c50d;
+    color: black;
+    transition: 0.5s;
+    border: none;
+    font-family: segoe-ui-bold;
+}
+
+.order button:hover{
+    background-color: #00FF80;
+    color: white;
+    border: none;
+}
+
+
+.footer{
+    padding: 2rem;
+    background-color: #4D4D4D;
+}
+
+.footer a{
+    color: #C5C1C1;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footerp{
+    color: #C5C1C1;
+}
+
+.footer img{
+    height: 3rem;
+}
+
+.order{
+    margin-top: 85px;
+    margin-bottom: 30px;
+}
+
+.modal-body img{
+    width: 100%;
+}
+
+.cart_modal_quantity p{
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+}
+
+
+.modal_order_btn button{
+    border: none;
+    background-color: #f7c50d;
+    margin-top: 30px;
+    padding-left:0px;
+    padding-right: 0px;
+    width: 100%;
+    color: #000000;
+    transition: 0.5s;
+    font-family: segoe-ui-bold;
+}
+
+
+.modal_cancel_btn button{
+    border: none;
+    background-color: #f4f4f4;
+    margin-top: 30px;
+    width: 100%;
+    color: #000000;
+    transition: 0.5s;
+    font-family: segoe-ui-bold;
+}
+
+.modal_cancel_btn button:hover{
+    border: none;
+    background-color: #030303;
+    width: 100%;
+    color: #ffffff;
+}
+
+
+
+
+
+/* Uploadimg */
+
+.bread_crumps{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
+}
+
+.bread_crumps p{
+    font-family: 'Secular One', sans-serif;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tt_head{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+Result
+EDIT ON
+
+.it .btn-orange
+{
+    background-color:  #777;
+    border-color: #777!important;
+    color: #777;
+    text-align: left;
+  width:100%;
+}
+.it input.form-control
+{
+
+    border:none;
+  margin-bottom:0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: none;
+}
+.it .form-control:focus
+{
+    border-color: #ff4d0d;
+    box-shadow: none;
+    outline: none;
+}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.file_upload_label{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.file_upload_label_two{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.file_upload_label_three{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.file_upload_label p{
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+
+}
+
+.file_upload_label_two p{
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+
+}
+
+.file_upload_label_three p{
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+
+}
+
+.upload_image_right{
+margin-top: 30px;
+padding-left: 30px;
+}
+
+.upload_image_right p{
+    color: #777;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+    }
+
+.upload_image_right h4{
+        margin-top: 45px;
+        font-family: 'Secular One', sans-serif;
+        font-weight: 500;
+        }
+
+.tt-shopcart-table01 td{
+    text-align: right;
+}
+
+.note_form{
+    padding-left: 30px;
+}
+
+
+.tt-shopcart-table01{
+    width: 100%;
+    text-align: left;
+
+}
+.upload_img_table{
+
+    padding-right: 30px;
+}
+
+.upload_img_table table td{
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+
+.upload_img_btn{
+    margin-top: 20px;
+}
+
+.upload_img_btn button{
+    border: 2px solid #000000;
+    background-color: #f7c50d;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 10px;
+    transition: 0.5s;
+    font-family: segoe-ui-bold;
+    color: #000000;
+}
+
+.upload_img_btn button:hover{
+    border: 2px solid #000000;
+    background-color: #000000;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 10px;
+    transition: 0.5s;
+    font-family: segoe-ui-bold;
+    color: #ffffff;
+}
+
+.input-group-btn{
+    background-color: #2798e4;
+}
+
+.input_group_text p{
+    font-size: 13px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+
+.input-group-btn p{
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+    color: #000000;
+
+}
+
+/* INFORMATION */
+
+.info_login_lable{
+    width: 100%;
+}
+
+.info_login_lable table th{
+    text-align: left;
+}
+
+.info_login_lable table td{
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.info_form label{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.form_text{
+    font-family: 'Secular One', sans-serif;
+    font-size: 0.5rem;
+}
+
+.info_form button{
+    border: 2px solid #000000;
+    background-color: #f7c50d;
+    font-size: 10px;
+    color: #000000;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 0.5s;
+    font-family: segoe-ui-bold;
+}
+
+
+.info_form button:hover{
+    border: 2px solid #000000;
+    background-color: #000000;
+    font-size: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 0.5s;
+    font-family: segoe-ui-bold;
+}
+
+
+/* LOGIN */
+
+.cta_register p{
+    font-weight: 1000;
+    font-family: 'Secular One', sans-serif;
+}
+
+..cta_register_login{
+    margin-top: 50px;
+}
+
+.cta_register_login a{
+    background-color: #f7c50d;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 2px solid #000000;
+    margin-top: 10px;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cta_register_login a:active{
+    background-color: #f7c50d;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 2px solid #000000;
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cta_register_login a:hover{
+    background-color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 2px solid #000000;
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login_topic p{
+    font-weight: 1000;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+
+.login_form label{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.login_form button{
+    border: 2px solid #000000;
+    background-color: #f7c50d;
+    margin-top: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left:30px;
+    padding-right: 30px;
+    color: #000000;
+    font-family: segoe-ui-bold;
+}
+
+.login_form button:hover{
+    border: 2px solid #000000;
+    background-color: #000000;
+    margin-top: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left:30px;
+    padding-right: 30px;
+    color: #ffffff;
+    font-family: segoe-ui-bold;
+}
+
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 576px) {
+    .modal_order_btn button{
+        border: none;
+        background-color: #f7c50d;
+        margin-top: 30px;
+        padding-left:0px;
+        padding-right: 0px;
+        width: 100%;
+        font-size: 10px;
+        color: #000000;
+        transition: 0.5s;
+        font-family: segoe-ui-bold;
+    }
+
+    .modal_cancel_btn button{
+        background-color: #f4f4f4;
+        margin-top: 30px;
+        width: 100%;
+        border: none;
+        color: white;
+        transition: 0.5s;
+        font-family: segoe-ui-bold;
+    }
+
+
+.order p{
+    font-size: 1rem;
+    font-family: segoe-ui-bold;
+    }
+
+    .order{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+
+
