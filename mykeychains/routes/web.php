@@ -28,6 +28,8 @@ Route::get('/paymentsuccess', [MainController::class, 'paymentsuccess']);
 
 Route::get('/relation/contactus', [MainController::class, 'contactus']);
 
+Route::post('/relation/contactus-form', [MainController::class, 'contactinfoform'])->name('contactusform');
+
 Route::get('/relation/refund&cancellation', [MainController::class, 'refundcan']);
 
 Route::get('/relation/privacypolicy', [MainController::class, 'privacypol']);

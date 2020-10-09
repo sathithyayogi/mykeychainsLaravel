@@ -74,6 +74,10 @@
             <svg class="c-sidebar-nav-icon">
               <use xlink:href="assets/svg/free.svg#cil-speedometer"></use>
             </svg> UnPaid<span class="badge badge-info"></span></a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="/mkc/contact">
+                <svg class="c-sidebar-nav-icon">
+                  <use xlink:href="assets/svg/free.svg#cil-speedometer"></use>
+                </svg> Contact<span class="badge badge-info"></span></a></li>
 
       </ul>
 

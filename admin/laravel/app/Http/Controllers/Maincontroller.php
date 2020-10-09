@@ -38,4 +38,13 @@ class Maincontroller extends Controller
             'unpaids' => $unpaids
         ]);
     }
+
+    public function contactus() {
+        $forms = DB::table('contact_form')
+        ->get();
+
+        return view('contact', [
+            'forms' => $forms
+        ]);
+    }
 }

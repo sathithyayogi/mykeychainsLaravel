@@ -24,7 +24,65 @@
         <p>Reach us at <a href="">contact@mykeychains.in&nbsp;</a> </p> <br\>
         <p>or contact to&nbsp;<a href="">9087120907</a> or&nbsp;<a href="">9585085879</a> .</p>
     </div>
+</div>
+
+<div class="container-fluid ">
+
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="info_login_lable">
+                        <table class="">
+                            <tr>
+                                <th>Contact Us</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <form method="POST" action="{{route('contactusform')}}">
+                        @csrf
+                    <div class="div_form info_form mb-5">
+                            <div class="form-row">
+                              <div class="col-12">
+                                <label for="validationCustom01">Email <sup>*</sup> </label>
+                                <input type="email" name="email" class="form-control form_text" id="validationCustom01" value="" required>
+                              </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-12">
+                                  <label for="validationCustom01">Mobile Number <sup>optional</sup> </label>
+                                  <input type="number" name="number" class="form-control form_text" id="validationCustom01" value="">
+                                </div>
+                              </div>
+
+                              <div class="form-row">
+                                <div class="col-12">
+                                  <label for="validationCustom01">Subject <sup>*</sup> </label>
+                                  <input type="text" name="subject" class="form-control form_text" id="validationCustom01" value="" required>
+                                </div>
+                              </div>
+
+                              <div class="form-row">
+                                <div class="col-12">
+                                  <label for="validationCustom01">Message <sup>*</sup> </label>
+                                  <textarea class="form-control form_text" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                              </div>
+
+                            <button class="btn btn-primary mt-4"  type="submit">SEND</button>
+                          </form>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
 
 </div>
+
 
 @endsection

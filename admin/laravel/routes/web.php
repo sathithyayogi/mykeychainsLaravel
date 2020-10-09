@@ -22,6 +22,8 @@ Route::get('/mkc/unpaid', [MainController::class, 'unpaid']);
 
 Route::get('/mkc/paid', [MainController::class, 'paid']);
 
+Route::get('/mkc/contact', [MainController::class, 'contactus']);
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
